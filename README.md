@@ -13,7 +13,7 @@ available:
 
 ``` shell
 $ # install from the latest master
-$ nix-env -if https://github.com/nmattia/homies/tarball/master --remove-all
+$ nix-env -if https://github.com/otti0815/homies/tarball/master --remove-all
 $ # make sure that the .bashrc is sourced
 $ echo 'if [ -x "$(command -v bashrc)" ]; then $(bashrc); fi' >> ~/.bashrc
 ```
